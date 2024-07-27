@@ -146,7 +146,6 @@ function hidePreloader() {
 //   redirect();
 // })();
 
-
 const showAllBtn = document.getElementById("view_all_products_btn");
 
 showAllBtn.addEventListener("click", () => {
