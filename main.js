@@ -124,7 +124,7 @@ productCards.addEventListener("click", (event) => {
   const productCard = event.target.closest(".product_card");
   if (productCard) {
     const id = productCard.dataset.id;
-    window.location.href = `./pages/productPage.html?id=${id}`;
+    window.location.href = `/productPage?id=${id}`;
   }
 });
 
