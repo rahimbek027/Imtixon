@@ -135,12 +135,12 @@ function hidePreloader() {
   }
 }
 
-function redirect() {
-  const hasToken = localStorage.getItem("token");
-  if (!hasToken) {
-    window.location.href = "./pages/login.html";
-  }
-}
+// function redirect() {
+//   const hasToken = localStorage.getItem("token");
+//   if (!hasToken) {
+//     window.location.href = "./pages/login.html";
+//   }
+// }
 
 // (() => {
 //   redirect();
