@@ -142,9 +142,9 @@ function redirect() {
   }
 }
 
-(() => {
-  redirect();
-})();
+// (() => {
+//   redirect();
+// })();
 
 
 const showAllBtn = document.getElementById("view_all_products_btn");
