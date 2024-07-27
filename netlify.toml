@@ -1,9 +1,9 @@
 [[redirects]]
   from = "/productPage"
-  to = "/pages/productPage.html"
+  to = "./pages/productPage.html"
   status = 200
 
 [[redirects]]
   from = "/login"
-  to = "/pages/login.html"
+  to = "./pages/login.html"
   status = 200
